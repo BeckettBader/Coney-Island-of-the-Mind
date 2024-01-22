@@ -16,7 +16,7 @@ async function fetchRecentTechNewsNYC() {
         const threeWeeksAgo = new Date();
         threeWeeksAgo.setDate(today.getDate() - 30); 
 
-        // Format dates as YYYY-MM-DD
+
         const formattedToday = formatDate(today);
         const formattedThreeWeeksAgo = formatDate(threeWeeksAgo);
 
